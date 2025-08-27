@@ -168,7 +168,6 @@ class Library {
         System.out.print("Select book number to return: ");
         int bookChoice = scanner.nextInt();
         scanner.nextLine();
-
         if (bookChoice < 1 || bookChoice > borrowed.size()) {
             System.out.println("Invalid choice.");
             return;
@@ -352,4 +351,5 @@ Library Main Menu: -
 0. Exit
 Choose: 0
 Goodbye!
+
  */
