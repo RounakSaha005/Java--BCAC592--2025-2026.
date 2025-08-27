@@ -244,6 +244,84 @@ class Library {
     }
 }
 /*Output: -
+Library Main Menu: -
+1. Book Menu
+2. Member Menu
+3. Borrow Book
+4. Return Book
+0. Exit
+Choose: 1
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 1
+Enter Book Title: Programming in C                                                                        
+Enter Author: Gottfried
+Book Added!
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 1
+Enter Book Title: Fundamentals of Digital Circuits
+Enter Author: Anand Kumar
+Book Added!
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 1
+Enter Book Title: Software Engineering
+Enter Author: Pressman
+Book Added!
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 2
+
+Available Books:
+1. Programming in C by Gottfried | Available: true
+2. Fundamentals of Digital Circuits by Anand Kumar | Available: true
+3. Software Engineering by Pressman | Available: true
+Enter book number to remove: 2
+Book Removed!
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 3
+
+Available Books:
+1. Programming in C by Gottfried | Available: true
+2. Software Engineering by Pressman | Available: true
+
+Book Main Menu: -
+1. Add Book
+2. Remove Book
+3. List Books
+0. Back
+Choose: 0
+
+Library Main Menu: -
+1. Book Menu
+2. Member Menu
+3. Borrow Book
+4. Return Book
+0. Exit
+Choose: 2
+
 Member Main Menu: -
 1. Add Member
 2. Remove Member
@@ -320,10 +398,24 @@ Registered Members:
 Select member number: 1
 
 Available Books:
-1. Let Us C by Yashavant Kanetkar | Available: true
-2. Computer Fundamentals by P.K. Sinha | Available: true
-Select book number to borrow: 1
-Rounak Saha borrowed: Let Us C
+1. Programming in C by Gottfried | Available: true
+2. Software Engineering by Pressman | Available: true
+Select book number to borrow: 2
+Rounak Saha borrowed: Software Engineering
+
+Library Main Menu: -
+1. Book Menu
+2. Member Menu
+3. Borrow Book
+4. Return Book
+0. Exit
+Choose: 4
+
+Registered Members:
+1. Rounak Saha (ID: 78)
+2. Samriddha Dey (ID: 88)
+Select member number: 2
+No borrowed books.
 
 Library Main Menu: -
 1. Book Menu
@@ -339,9 +431,9 @@ Registered Members:
 Select member number: 1
 
 Borrowed Books: -
-1. Let Us C by Yashavant Kanetkar
+1. Software Engineering by Pressman
 Select book number to return: 1
-Returned: Let Us C
+Returned: Software Engineering
 
 Library Main Menu: -
 1. Book Menu
@@ -351,5 +443,4 @@ Library Main Menu: -
 0. Exit
 Choose: 0
 Goodbye!
-
- */
+*/
